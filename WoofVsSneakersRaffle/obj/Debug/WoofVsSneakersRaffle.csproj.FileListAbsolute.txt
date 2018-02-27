@@ -1,0 +1,8 @@
+C:\Users\Ro\Source\Repos\WoofVsSneakersRaffle\WoofVsSneakersRaffle\bin\Debug\WoofVsSneakersRaffle.exe.config
+C:\Users\Ro\Source\Repos\WoofVsSneakersRaffle\WoofVsSneakersRaffle\bin\Debug\WoofVsSneakersRaffle.exe
+C:\Users\Ro\Source\Repos\WoofVsSneakersRaffle\WoofVsSneakersRaffle\bin\Debug\WoofVsSneakersRaffle.pdb
+C:\Users\Ro\Source\Repos\WoofVsSneakersRaffle\WoofVsSneakersRaffle\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ro\Source\Repos\WoofVsSneakersRaffle\WoofVsSneakersRaffle\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ro\Source\Repos\WoofVsSneakersRaffle\WoofVsSneakersRaffle\obj\Debug\WoofVsSneakersRaffle.csproj.CoreCompileInputs.cache
+C:\Users\Ro\Source\Repos\WoofVsSneakersRaffle\WoofVsSneakersRaffle\obj\Debug\WoofVsSneakersRaffle.exe
+C:\Users\Ro\Source\Repos\WoofVsSneakersRaffle\WoofVsSneakersRaffle\obj\Debug\WoofVsSneakersRaffle.pdb

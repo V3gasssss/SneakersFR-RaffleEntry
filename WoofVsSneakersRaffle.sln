@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoofVsSneakersRaffle", "WoofVsSneakersRaffle\WoofVsSneakersRaffle.csproj", "{D1C7EACB-A4EB-452B-A9E9-32B0DDA02F6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1C7EACB-A4EB-452B-A9E9-32B0DDA02F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1C7EACB-A4EB-452B-A9E9-32B0DDA02F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1C7EACB-A4EB-452B-A9E9-32B0DDA02F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1C7EACB-A4EB-452B-A9E9-32B0DDA02F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E6783DF-2DC0-493A-8A4E-BA3EDE577482}
+	EndGlobalSection
+EndGlobal

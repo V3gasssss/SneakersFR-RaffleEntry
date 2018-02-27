@@ -178,10 +178,10 @@ namespace WoofVsSneakersRaffle
             entryJson["mail"]["message"]["subject"] = "Confirmation";
             entryJson["mail"]["message"]["from_email"] = "verify@sneakers-raffle.fr";
             entryJson["mail"]["message"]["from_name"] = "Sneakers Raffle";
-            entryJson["mail"]["message"]["to"] = new JArray(new JObject(new JProperty("email", ""), new JProperty("type", "to")));
+            entryJson["mail"]["message"]["to"] = new JArray(new JObject(new JProperty("email", entryEmail), new JProperty("type", "to")));
             entryJson["mail"]["message"]["headers"] = new JObject(new JProperty("Reply-To", "no.reply@sneakers-raffle.fr"));
             entryJson["mail"]["message"]["merge_language"] = "handlebars";
-            entryJson["mail"]["message"]["global_merge_vars"] = new JArray(new JObject(new JProperty("name", "shoe name"), new JProperty("content", "The Ten: Air Jordan 1")), new JObject(new JProperty("name", "shoe_image"), new JProperty("content", "https://off---white.sneakers-raffle.fr/app/uploads/2018/02/AirJordan@100cropped.jpg")), new JObject(new JProperty("name", "firstname")), new JObject(new JProperty("name", "pickup date"), new JProperty("content", "11 November")));
+            entryJson["mail"]["message"]["global_merge_vars"] = new JArray(new JObject(new JProperty("name", "shoe_name"), new JProperty("content", "The Ten: Air Jordan 1")), new JObject(new JProperty("name", "shoe_image"), new JProperty("content", "https://off---white.sneakers-raffle.fr/app/uploads/2018/02/AirJordan@100cropped.jpg")), new JObject(new JProperty("name", "firstname")), new JObject(new JProperty("name", "pickup_date"), new JProperty("content", "11 November")));
 
             var enterRaffle = await Client.PostAsync("https://api.sneakers-raffle.fr/submit",
                 new StringContent(entryJson.ToString(), Encoding.UTF8, "application/json"));

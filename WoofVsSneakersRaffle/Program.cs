@@ -152,7 +152,7 @@ namespace WoofVsSneakersRaffle
             var entryEmail = "";
             if (isGmail)
             {
-                entryEmail = Email.Replace("@gmail.com", "") + $"+{RandomString(6)}@gmail.com";
+                entryEmail = Email.Replace("@gmail.com", "") + $"+{_rnd.Next(1, 95768).ToString()}@gmail.com";
             }else if (isCatchAll)
             {
                 entryEmail = RandomString(7) + Email;
